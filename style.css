@@ -1,0 +1,235 @@
+/*- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.flex-container {
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    width: 80%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom:40px;
+    border-radius: 10px;
+    flex-flow: column wrap;
+    align-items: center;
+    position: relative;
+}
+/*styling the box for the image inside the flex container*/
+.image {
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 35px;
+    
+    
+}
+
+/*styling the image itself*/
+.main {
+    width: 100%;
+    
+    margin: auto;
+    border-radius: 10px;
+}
+
+/*icon which will only apper when someone hovers over the desk main image*/
+.mainicon {
+    display: none;
+}
+.overlay {
+    display: none;
+}
+
+
+
+/* this class is the box to the h1*/
+.body {
+    display: flex;
+    width: 80%;
+    height: 70px;
+    
+}
+
+/*styling the only h1 */
+h1 {
+    display: flex;
+    text-align: center;
+    flex-flow: row;
+    color:hsl(0, 0%, 100%) ;
+    font-family: "outfit",sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+/*styling the box for our main paragraph an the p itself*/
+.text {
+    width: 80%;
+     box-sizing: border-box;
+    padding-right: 10px;
+
+}
+.text p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "outfit",sans-serif;
+    line-height:1.6;
+    color:hsl(215, 51%, 70%);
+    
+}
+
+/*styling the box for our tags*/
+.tags {
+    width: 80%;
+    height:30px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*tags and their texts*/
+
+.days {
+ padding-left: 100px;
+ font-family:"outfit",sans-serif;
+ color:hsl(215, 51%, 70%);
+ font-size: 18px;
+ font-weight: 400;
+}
+ .clock {
+ position: relative;
+ left: 90px;
+    
+}
+.eth {
+    font-family: "outfit",sans-serif;
+    color: hsl(178, 100%, 50%);
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* styling our footer and the  roudend img */
+
+.footer {
+    width: 80%;
+    height: 50px;
+     margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer >p {
+    text-align: left;
+    line-height: 50px;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-family:"outfit",sans-serif; 
+    font-weight: 300;
+}
+
+.jules {
+    padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.creation {
+    width: 50px;
+    border-radius: 50%;
+    padding:1px;
+    border:2px solid hsl(0, 0%, 100%);
+    float: left;
+}
+
+@media screen and (min-width: 768px)  {
+    
+.flex-container {
+    display: flex;
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    width: 30%;
+    height: 30%;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom:100px;
+    border-radius: 10px;
+}
+
+.days {
+    padding-left: 90px;
+}
+
+.clock {
+position:relative;
+left:85px;
+}
+
+/*hover*/
+
+h1:hover, .Wyvern:hover  {
+   color:hsl(178, 100%, 50%);
+   cursor: pointer;
+
+}
+
+/*styling the overlay and setting to display hidden so it will just show up when hovering*/
+
+.overlay {
+    display: hidden;
+    position:absolute; 
+    height: 47.7%;
+    width: 80%;
+    background: hsl(178, 100%, 50%);
+    opacity: 0.4;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+/*styling the icone box*/
+
+.icone {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 125px;
+    right: 175px;
+    display: hidden;
+}
+
+/*styling the icone itself and setting the display to hidden, the icone will just show up when hovering over the image*/
+
+.mainicon {
+    display: hidden;
+    opacity: 1;
+
+}
+
+/*when hovering over the image will make the icon apper and the overlay*/
+
+.image:hover .mainicon {
+    display: flex;
+    
+}
+
+.image:hover .overlay {
+    display: flex;
+}
+
+
+}
