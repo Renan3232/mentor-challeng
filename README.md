@@ -43,19 +43,16 @@ Users should be able to:...
 - Flexbox
 - Mobile-first workflow
 
-
 ### What I learned
 I've improved my skills over hover selector, flexbox, changing the cursor to pointer and making an overlay.
 
-```css
+css
 .proud-of-this-css 
 h1:hover, .Wyvern:hover  {
    color:hsl(178, 100%, 50%);
    cursor: pointer;
 
 }
-
-
 
 ### Continued development
 
