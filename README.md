@@ -27,12 +27,12 @@ Users should be able to:...
 
 ### Screenshot
 
-![NFT Design Solution](images\ScreenShot1.jpg)
+![NFT Design Solution](\images\ScreenShot2.jpg)
 
 
 ### Links
 
-- Solution URL: [Add](https://your-solution-url.com)
+- Solution URL: [](https://your-solution-url.com)
 - Live Site URL: [Live site](https://app.netlify.com/sites/determined-tereshkova-e2e232/overview)
 
 
