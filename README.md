@@ -27,7 +27,7 @@ Users should be able to:...
 
 ### Screenshot
 
-![](\images\ScreenShot1.jpg)
+![NFT Design Solution](images\ScreenShot1.jpg)
 
 
 ### Links
@@ -48,11 +48,11 @@ I've improved my skills over hover selector, flexbox, changing the cursor to poi
 
 css
 .proud-of-this-css 
-h1:hover, .Wyvern:hover  {
-   color:hsl(178, 100%, 50%);
-   cursor: pointer;
 
-}
+h1:hover, .Wyvern:hover   
+ {
+   color:hsl(178, 100%, 50%);
+   cursor: pointer; }
 
 ### Continued development
 
@@ -67,6 +67,6 @@ I'd like to refine my grouping selector, trying to make my code shorter, also mo
 
 ## Author
 
-- Website - [Github](https://github.com/Renan3232)
+- Website - [GithubRenan3232](https://github.com/Renan3232)
 - Frontend Mentor - [@Renan3232](https://www.frontendmentor.io/profile/Renan3232)
 
