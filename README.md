@@ -27,7 +27,7 @@ Users should be able to:...
 
 ### Screenshot
 
-![NFT Design Solution](images\ScreenShot1.jpg)
+![NFT Design Solution](main/images/ScreenShot1.jpg)
 
 
 ### Links
