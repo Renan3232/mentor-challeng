@@ -31,6 +31,7 @@ body {
     position: relative;
 }
 /*styling the box for the image inside the flex container*/
+
 .image {
     display: flex;
     width: 80%;
@@ -41,6 +42,7 @@ body {
 }
 
 /*styling the image itself*/
+
 .main {
     width: 100%;
     
@@ -49,6 +51,7 @@ body {
 }
 
 /*icon which will only apper when someone hovers over the desk main image*/
+
 .mainicon {
     display: none;
 }
@@ -59,6 +62,7 @@ body {
 
 
 /* this class is the box to the h1*/
+
 .body {
     display: flex;
     width: 80%;
@@ -67,6 +71,7 @@ body {
 }
 
 /*styling the only h1 */
+
 h1 {
     display: flex;
     text-align: center;
@@ -80,6 +85,7 @@ h1 {
 }
 
 /*styling the box for our main paragraph an the p itself*/
+
 .text {
     width: 80%;
      box-sizing: border-box;
@@ -96,6 +102,7 @@ h1 {
 }
 
 /*styling the box for our tags*/
+
 .tags {
     width: 80%;
     height:30px;
