@@ -241,7 +241,7 @@ h1:hover, .Wyvern:hover  {
 
 @media only screen and (min-width: 1100px) {
     .flex-container {
-        width: 100%;
+        width: 20%;
     }
 }
 
