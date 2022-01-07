@@ -242,13 +242,14 @@ h1:hover, .Wyvern:hover  {
 
 @media only screen and (min-width: 1300px) {
     .flex-container {
-        width: 25%;
-        height: autopx;
+        width: 20%;
+        height: auto;
     }
     
     .image {
         width: 90%;
         height: auto;
+        background-color: blue;
     
     }
     .main {
