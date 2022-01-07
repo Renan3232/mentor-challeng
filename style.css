@@ -247,12 +247,12 @@ h1:hover, .Wyvern:hover  {
     }
     
     .image {
-        width: 100%;
+        width: 50%;
         height: auto;
     
     }
     .main {
-        width: 500px;
+        width: 100%;
     }
 
 
