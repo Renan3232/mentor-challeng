@@ -256,6 +256,7 @@ h1:hover, .Wyvern:hover  {
     }
     .main {
         width: 305px;
+        padding-right: 10px;
         
     }
 
