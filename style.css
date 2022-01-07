@@ -162,7 +162,7 @@ h1 {
     float: left;
 }
 
-@media only screen and (min-width: 700px)  {
+@media only screen and (min-width: 600px)  {
     
 .flex-container {
     display: flex;
@@ -198,7 +198,7 @@ h1:hover, .Wyvern:hover  {
 .overlay {
     display: hidden;
     position:absolute; 
-    height: 47.7%;
+    height: 48.5%;
     width: 80%;
     background: hsl(178, 100%, 50%);
     opacity: 0.4;
@@ -238,8 +238,9 @@ h1:hover, .Wyvern:hover  {
 
 }
 
+}
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1200px) {
     .flex-container {
         width: 20%;
         height: 500px;
@@ -248,13 +249,12 @@ h1:hover, .Wyvern:hover  {
     .image {
         width: 100%;
         height: auto;
-        background-color: aqua;
+    
     }
     .main {
         width: 500px;
     }
 
-}
 
     
 
