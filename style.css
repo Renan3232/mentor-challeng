@@ -250,11 +250,13 @@ h1:hover, .Wyvern:hover  {
         width: 90%;
         height: auto;
         background-color: blue;
+        display: flex;
+        justify-content: center;
     
     }
     .main {
         width: 305px;
-        text-align: center;
+        
     }
 
     .overlay {
