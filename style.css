@@ -250,7 +250,7 @@ h1:hover, .Wyvern:hover  {
     .image {
         width: 80%;
         height: auto;
-        display: flex;
+        display: flexbox;
     
     }
     .main {
