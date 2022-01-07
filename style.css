@@ -249,12 +249,12 @@ h1:hover, .Wyvern:hover  {
     .image {
         width: 80%;
         height: auto;
-        display: flex;
-        justify-content: center;
+        position: absolute;
     
     }
     .main {
         width: 305px;
+        
         
         
     }
