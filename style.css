@@ -261,6 +261,9 @@ h1:hover, .Wyvern:hover  {
         width: 90%;
     }
     
+    .days {
+        padding-left: 80px;
+    }
 
     
 }
