@@ -244,12 +244,13 @@ h1:hover, .Wyvern:hover  {
     .flex-container {
         width: 20%;
         height: auto;
+
     }
     
     .image {
         width: 80%;
         height: auto;
-        
+        display: flex;
     
     }
     .main {
