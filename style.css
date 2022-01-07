@@ -86,7 +86,7 @@ h1 {
 /*styling the box for our main paragraph an the p itself*/
 
 .text {
-    width: 90%;
+    width: 80%;
     box-sizing: border-box;
     padding-right: 10px;
 
