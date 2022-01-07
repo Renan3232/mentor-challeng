@@ -253,11 +253,13 @@ h1:hover, .Wyvern:hover  {
     
     }
     .main {
-        width: 310px;
+        width: 305px;
         text-align: center;
     }
 
-
+    .overlay {
+        width: 100%;
+    }
     
 
     
